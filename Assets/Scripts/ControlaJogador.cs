@@ -4,6 +4,7 @@ using UnityEngine;
 
 public class ControlaJogador : MonoBehaviour {
     public int velocidade = 10;
+    public LayerMask mascaraChao;
     Vector3 direcao;
 
     // Update is called once per frame
@@ -23,8 +24,22 @@ public class ControlaJogador : MonoBehaviour {
 
     void FixedUpdate()
     {
+        Ray raio = Camera.main.ScreenPointToRay(Input.mousePosition);
+        RaycastHit impacto;
+        Vector3 posicaoMiraJogador;
+        Quaternion novaRotacao;
+
         GetComponent<Rigidbody>().MovePosition(
             GetComponent<Rigidbody>().position + (
                 direcao * velocidade * Time.deltaTime));
+
+        if(Physics.Raycast(raio, out impacto, 100, mascaraChao)) {
+            posicaoMiraJogador = impacto.point - transform.position;
+            posicaoMiraJogador.y = transform.position.y;
+            novaRotacao = Quaternion.LookRotation(posicaoMiraJogador);
+            GetComponent<Rigidbody>().MoveRotation(novaRotacao);
+        }
+
+        Debug.DrawRay(raio.origin, raio.direction*100, Color.red);
     }
 }
