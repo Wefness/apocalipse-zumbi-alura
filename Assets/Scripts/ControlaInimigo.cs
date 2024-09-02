@@ -30,7 +30,8 @@ public class ControlaInimigo : MonoBehaviour
             novaRotacao = Quaternion.LookRotation(direcao);
 
             GetComponent<Rigidbody>().MovePosition(
-                GetComponent<Rigidbody>().position + direcao.normalized * velocidade * Time.deltaTime);
+                GetComponent<Rigidbody>().position + (
+                    direcao.normalized * velocidade * Time.deltaTime));
 
             GetComponent<Rigidbody>().MoveRotation(novaRotacao);
         }
