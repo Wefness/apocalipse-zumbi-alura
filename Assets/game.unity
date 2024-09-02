@@ -666,42 +666,27 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 2450168804455373476, guid: 35861510587b7489780fe86970823679, type: 3}
+      propertyPath: m_Constraints
+      value: 116
+      objectReference: {fileID: 0}
+    - target: {fileID: 2986826078985802366, guid: 35861510587b7489780fe86970823679, type: 3}
+      propertyPath: Jogador
+      value: 
+      objectReference: {fileID: 768889971}
+    - target: {fileID: 2986826078985802366, guid: 35861510587b7489780fe86970823679, type: 3}
+      propertyPath: jogador
+      value: 
+      objectReference: {fileID: 768889971}
+    - target: {fileID: 2986826078985802366, guid: 35861510587b7489780fe86970823679, type: 3}
+      propertyPath: velocidade
+      value: 5
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents:
-    - targetCorrespondingSourceObject: {fileID: 1063500868937916, guid: 35861510587b7489780fe86970823679, type: 3}
-      insertIndex: -1
-      addedObject: {fileID: 936706849}
+    m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 35861510587b7489780fe86970823679, type: 3}
---- !u!1 &936706848 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 1063500868937916, guid: 35861510587b7489780fe86970823679, type: 3}
-  m_PrefabInstance: {fileID: 936706847}
-  m_PrefabAsset: {fileID: 0}
---- !u!136 &936706849
-CapsuleCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 936706848}
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_IsTrigger: 0
-  m_ProvidesContacts: 0
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Radius: 1
-  m_Height: 3
-  m_Direction: 1
-  m_Center: {x: 0, y: 1.5, z: 0}
 --- !u!1001 &1009631527
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -811,6 +796,22 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 2450168804455373476, guid: 35861510587b7489780fe86970823679, type: 3}
+      propertyPath: m_Constraints
+      value: 116
+      objectReference: {fileID: 0}
+    - target: {fileID: 2986826078985802366, guid: 35861510587b7489780fe86970823679, type: 3}
+      propertyPath: Jogador
+      value: 
+      objectReference: {fileID: 768889971}
+    - target: {fileID: 2986826078985802366, guid: 35861510587b7489780fe86970823679, type: 3}
+      propertyPath: jogador
+      value: 
+      objectReference: {fileID: 768889971}
+    - target: {fileID: 2986826078985802366, guid: 35861510587b7489780fe86970823679, type: 3}
+      propertyPath: velocidade
+      value: 5
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -898,6 +899,22 @@ PrefabInstance:
     - target: {fileID: 4941635705825534, guid: 35861510587b7489780fe86970823679, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2450168804455373476, guid: 35861510587b7489780fe86970823679, type: 3}
+      propertyPath: m_Constraints
+      value: 116
+      objectReference: {fileID: 0}
+    - target: {fileID: 2986826078985802366, guid: 35861510587b7489780fe86970823679, type: 3}
+      propertyPath: Jogador
+      value: 
+      objectReference: {fileID: 768889971}
+    - target: {fileID: 2986826078985802366, guid: 35861510587b7489780fe86970823679, type: 3}
+      propertyPath: jogador
+      value: 
+      objectReference: {fileID: 768889971}
+    - target: {fileID: 2986826078985802366, guid: 35861510587b7489780fe86970823679, type: 3}
+      propertyPath: velocidade
+      value: 5
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
