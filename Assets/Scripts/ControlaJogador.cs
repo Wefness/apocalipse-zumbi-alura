@@ -11,6 +11,10 @@ public class ControlaJogador : MonoBehaviour {
     public bool vivo = true;
     Vector3 direcao;
 
+    void Start()
+    {
+        Time.timeScale = 1;
+    }
     // Update is called once per frame
     void Update()
     {
