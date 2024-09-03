@@ -15,7 +15,9 @@ public class Bala : MonoBehaviour
     void OnTriggerEnter(Collider other) {
         if(other.tag == "Inimigo") {
             Destroy(other.gameObject);
-            Destroy(gameObject);
         }
+
+        Destroy(gameObject);
+        //Destroy(gameObject, 5);
     }
 }
