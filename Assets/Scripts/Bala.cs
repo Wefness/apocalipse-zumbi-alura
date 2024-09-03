@@ -11,4 +11,11 @@ public class Bala : MonoBehaviour
             GetComponent<Rigidbody>().position + (
                 transform.forward * velocidade * Time.deltaTime));
     }
+
+    void OnTriggerEnter(Collider other) {
+        if(other.tag == "Inimigo") {
+            Destroy(other.gameObject);
+            Destroy(gameObject);
+        }
+    }
 }

@@ -19,7 +19,7 @@ MonoBehaviour:
     width: 1920
     height: 997
   m_ShowMode: 4
-  m_Title: Git for Unity
+  m_Title: Game
   m_RootView: {fileID: 6}
   m_MinSize: {x: 875, y: 300}
   m_MaxSize: {x: 10000, y: 10000}
@@ -48,7 +48,7 @@ MonoBehaviour:
   m_MinSize: {x: 300, y: 100}
   m_MaxSize: {x: 24288, y: 16192}
   vertical: 0
-  controlID: 105
+  controlID: 111
 --- !u!114 &3
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -68,8 +68,8 @@ MonoBehaviour:
     y: 0
     width: 390
     height: 947
-  m_MinSize: {x: 101, y: 121}
-  m_MaxSize: {x: 4001, y: 4021}
+  m_MinSize: {x: 100, y: 100}
+  m_MaxSize: {x: 4000, y: 4000}
   m_ActualView: {fileID: 13}
   m_Panes:
   - {fileID: 15}
@@ -93,7 +93,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 0
     y: 0
-    width: 379
+    width: 308
     height: 572
   m_MinSize: {x: 201, y: 221}
   m_MaxSize: {x: 4001, y: 4021}
@@ -128,7 +128,7 @@ MonoBehaviour:
   - {fileID: 14}
   - {fileID: 19}
   m_Selected: 0
-  m_LastSelected: 0
+  m_LastSelected: 1
 --- !u!114 &6
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -224,7 +224,7 @@ MonoBehaviour:
   m_MinSize: {x: 200, y: 100}
   m_MaxSize: {x: 16192, y: 16192}
   vertical: 1
-  controlID: 47
+  controlID: 55
 --- !u!114 &10
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -249,7 +249,7 @@ MonoBehaviour:
   m_MinSize: {x: 200, y: 50}
   m_MaxSize: {x: 16192, y: 8096}
   vertical: 0
-  controlID: 48
+  controlID: 56
 --- !u!114 &11
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -265,9 +265,9 @@ MonoBehaviour:
   m_Children: []
   m_Position:
     serializedVersion: 2
-    x: 379
+    x: 308
     y: 0
-    width: 1151
+    width: 1222
     height: 572
   m_MinSize: {x: 202, y: 221}
   m_MaxSize: {x: 4002, y: 4021}
@@ -315,7 +315,41 @@ MonoBehaviour:
   m_ViewTransforms:
     m_KeySerializationHelper:
     - {fileID: 4699955877967724473, guid: f54552f84ec688c44af45723ae5ff1c9, type: 2}
+    - {fileID: 7384423834166741967, guid: d4714bd97eda2d646a9844661a2ba90b, type: 2}
+    - {fileID: 3985876055538206601, guid: f54552f84ec688c44af45723ae5ff1c9, type: 2}
     m_ValueSerializationHelper:
+    - e00: 0.7412371
+      e01: 0
+      e02: 0
+      e03: -7.2371216
+      e10: 0
+      e11: 0.7412371
+      e12: 0
+      e13: 163.34537
+      e20: 0
+      e21: 0
+      e22: 1
+      e23: 0
+      e30: 0
+      e31: 0
+      e32: 0
+      e33: 1
+    - e00: 0.7568421
+      e01: 0
+      e02: 0
+      e03: -22.842102
+      e10: 0
+      e11: 0.7568421
+      e12: 0
+      e13: 184.1
+      e20: 0
+      e21: 0
+      e22: 1
+      e23: 0
+      e30: 0
+      e31: 0
+      e32: 0
+      e33: 1
     - e00: 1
       e01: 0
       e02: 0
@@ -335,7 +369,7 @@ MonoBehaviour:
   m_PreviewAnimator: {fileID: 0}
   m_AnimatorController: {fileID: 9100000, guid: f54552f84ec688c44af45723ae5ff1c9, type: 2}
   m_BreadCrumbs:
-  - m_Target: {fileID: 4699955877967724473, guid: f54552f84ec688c44af45723ae5ff1c9, type: 2}
+  - m_Target: {fileID: 3985876055538206601, guid: f54552f84ec688c44af45723ae5ff1c9, type: 2}
     m_ScrollPosition: {x: 0, y: 0}
   stateMachineGraph: {fileID: 0}
   stateMachineGraphGUI: {fileID: 0}
@@ -345,9 +379,9 @@ MonoBehaviour:
   m_MiniTool: 0
   m_LockTracker:
     m_IsLocked: 0
-  m_CurrentEditor: 1
+  m_CurrentEditor: 0
   m_LayerEditor:
-    m_SelectedLayerIndex: 0
+    m_SelectedLayerIndex: 1
 --- !u!114 &13
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -382,7 +416,7 @@ MonoBehaviour:
     m_LastAppliedPresetName: Default
     m_SaveData: []
     m_OverlaysVisible: 1
-  progressMessageClearTime: -1
+  progressMessageClearTime: 24673.4000862
   notificationClearTime: -1
   timeSinceLastRotation: -1
   currentBranchAndRemoteHasUpdate: 0
@@ -582,11 +616,106 @@ MonoBehaviour:
     treeScroll: {x: 0, y: 0}
     treeChanges:
       assets:
-        keys: []
-        values: []
+        keys:
+        - 00000000000000001000000000000000
+        - 1afbacf15f5218b4484fb73935dfaf4a
+        - 00000000000000003000000000000000
+        values:
+        - path: Assets
+          label: Assets
+          level: 0
+          isFolder: 1
+          isContainer: 0
+          isCollapsed: 0
+          isHidden: 0
+          isActive: 0
+          treeIsCheckable: 1
+          checkState: 0
+          isLocked: 0
+          gitStatusEntry:
+            path: 
+            fullPath: 
+            projectPath: 
+            originalPath: 
+            indexStatus: 0
+            workTreeStatus: 0
+        - path: Assets\game.unity
+          label: game.unity
+          level: 1
+          isFolder: 0
+          isContainer: 0
+          isCollapsed: 0
+          isHidden: 0
+          isActive: 0
+          treeIsCheckable: 1
+          checkState: 0
+          isLocked: 0
+          gitStatusEntry:
+            path: Assets\game.unity
+            fullPath: E:\GitHub\apocalipse-zumbi-alura\Assets\game.unity
+            projectPath: Assets\game.unity
+            originalPath: 
+            indexStatus: 0
+            workTreeStatus: 3
+        - path: ProjectSettings\TagManager.asset
+          label: TagManager.asset
+          level: 1
+          isFolder: 0
+          isContainer: 0
+          isCollapsed: 0
+          isHidden: 0
+          isActive: 0
+          treeIsCheckable: 1
+          checkState: 0
+          isLocked: 0
+          gitStatusEntry:
+            path: ProjectSettings\TagManager.asset
+            fullPath: E:\GitHub\apocalipse-zumbi-alura\ProjectSettings\TagManager.asset
+            projectPath: ProjectSettings\TagManager.asset
+            originalPath: 
+            indexStatus: 0
+            workTreeStatus: 3
       folders:
-        keys: []
-        values: []
+        keys:
+        - Assets
+        - ProjectSettings
+        values:
+        - path: Assets
+          label: Assets
+          level: 0
+          isFolder: 1
+          isContainer: 0
+          isCollapsed: 0
+          isHidden: 0
+          isActive: 0
+          treeIsCheckable: 1
+          checkState: 0
+          isLocked: 0
+          gitStatusEntry:
+            path: 
+            fullPath: 
+            projectPath: 
+            originalPath: 
+            indexStatus: 0
+            workTreeStatus: 0
+        - path: ProjectSettings
+          label: ProjectSettings
+          level: 0
+          isFolder: 1
+          isContainer: 0
+          isCollapsed: 0
+          isHidden: 0
+          isActive: 0
+          treeIsCheckable: 1
+          checkState: 0
+          isLocked: 0
+          gitStatusEntry:
+            path: 
+            fullPath: 
+            projectPath: 
+            originalPath: 
+            indexStatus: 0
+            workTreeStatus: 0
       checkedFileNodes:
         keys: []
         values: []
@@ -615,6 +744,78 @@ MonoBehaviour:
           originalPath: 
           indexStatus: 0
           workTreeStatus: 0
+      - path: Assets
+        label: Assets
+        level: 0
+        isFolder: 1
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: 
+          fullPath: 
+          projectPath: 
+          originalPath: 
+          indexStatus: 0
+          workTreeStatus: 0
+      - path: Assets\game.unity
+        label: game.unity
+        level: 1
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: Assets\game.unity
+          fullPath: E:\GitHub\apocalipse-zumbi-alura\Assets\game.unity
+          projectPath: Assets\game.unity
+          originalPath: 
+          indexStatus: 0
+          workTreeStatus: 3
+      - path: ProjectSettings
+        label: ProjectSettings
+        level: 0
+        isFolder: 1
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: 
+          fullPath: 
+          projectPath: 
+          originalPath: 
+          indexStatus: 0
+          workTreeStatus: 0
+      - path: ProjectSettings\TagManager.asset
+        label: TagManager.asset
+        level: 1
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: ProjectSettings\TagManager.asset
+          fullPath: E:\GitHub\apocalipse-zumbi-alura\ProjectSettings\TagManager.asset
+          projectPath: ProjectSettings\TagManager.asset
+          originalPath: 
+          indexStatus: 0
+          workTreeStatus: 3
       selectedNode:
         path: 
         label: 
@@ -634,16 +835,28 @@ MonoBehaviour:
           originalPath: 
           indexStatus: 0
           workTreeStatus: 0
-    gitStatusEntries: []
-    changedFilesText: No changed files
+    gitStatusEntries:
+    - path: Assets\game.unity
+      fullPath: E:\GitHub\apocalipse-zumbi-alura\Assets\game.unity
+      projectPath: Assets\game.unity
+      originalPath: 
+      indexStatus: 0
+      workTreeStatus: 3
+    - path: ProjectSettings\TagManager.asset
+      fullPath: E:\GitHub\apocalipse-zumbi-alura\ProjectSettings\TagManager.asset
+      projectPath: ProjectSettings\TagManager.asset
+      originalPath: 
+      indexStatus: 0
+      workTreeStatus: 3
+    changedFilesText: 2 changed files
     lastCurrentBranchChangedEvent:
-      updatedTimeString: 2024-08-30T18:37:53.436-03:00
+      updatedTimeString: 2024-09-02T17:03:20.776-03:00
       cacheType: 1
     lastStatusEntriesChangedEvent:
-      updatedTimeString: 2024-08-30T18:38:10.708-03:00
+      updatedTimeString: 2024-09-02T18:02:18.059-03:00
       cacheType: 6
     lastLocksChangedEvent:
-      updatedTimeString: 2024-08-30T18:07:52.640-03:00
+      updatedTimeString: 0001-01-01T00:00:00.000+00:00
       cacheType: 7
   historyView:
     currentLogHasUpdate: 0
@@ -46063,9 +46276,9 @@ MonoBehaviour:
   currentRemoteName: origin
   currentBranch: main
   currentRemoteUrl: https://github.com/Wefness/apocalipse-zumbi-alura.git
-  statusAhead: 0
+  statusAhead: 1
   statusBehind: 0
-  hasItemsToCommit: 0
+  hasItemsToCommit: 1
   isTrackingRemoteBranch: 1
   currentBranchContent:
     m_Text: main
@@ -46076,13 +46289,13 @@ MonoBehaviour:
     m_Image: {fileID: 0}
     m_Tooltip: Url of the origin remote
   lastCurrentBranchAndRemoteChangedEvent:
-    updatedTimeString: 2024-08-30T18:37:53.436-03:00
+    updatedTimeString: 2024-09-02T17:03:20.776-03:00
     cacheType: 1
   lastTrackingStatusChangedEvent:
-    updatedTimeString: 2024-08-30T18:38:10.715-03:00
+    updatedTimeString: 2024-09-02T18:02:18.068-03:00
     cacheType: 5
   lastStatusEntriesChangedEvent:
-    updatedTimeString: 2024-08-30T18:38:10.708-03:00
+    updatedTimeString: 2024-09-02T18:02:18.059-03:00
     cacheType: 6
   pullButtonContent:
     m_Text: Pull
@@ -46100,7 +46313,7 @@ MonoBehaviour:
     m_Text: Fetch
     m_Image: {fileID: 0}
     m_Tooltip: 
-  repositoryProgressValue: 0
+  repositoryProgressValue: 1
   repositoryProgressMessage: 
   appManagerProgressValue: 1
   appManagerProgressMessage: 
@@ -46150,7 +46363,7 @@ MonoBehaviour:
     m_SkipHidden: 0
     m_SearchArea: 1
     m_Folders:
-    - Assets/Prefabs/Personagens
+    - Assets
     m_Globs: []
     m_OriginalText: 
     m_ImportLogFlags: 0
@@ -46158,16 +46371,16 @@ MonoBehaviour:
   m_ViewMode: 1
   m_StartGridSize: 64
   m_LastFolders:
-  - Assets/Prefabs/Personagens
-  m_LastFoldersGridSize: -1
+  - Assets
+  m_LastFoldersGridSize: 64
   m_LastProjectPath: E:\GitHub\apocalipse-zumbi-alura
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
-    scrollPos: {x: 0, y: 34}
-    m_SelectedIDs: 90450000
-    m_LastClickedID: 17808
-    m_ExpandedIDs: 00000000704500008a4500008c4500003053000000ca9a3b
+    scrollPos: {x: 0, y: 0}
+    m_SelectedIDs: 7a490000
+    m_LastClickedID: 18810
+    m_ExpandedIDs: 000000007a49000000ca9a3b
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -46193,9 +46406,9 @@ MonoBehaviour:
       m_ResourceFile: 
   m_AssetTreeState:
     scrollPos: {x: 0, y: 0}
-    m_SelectedIDs: 
-    m_LastClickedID: 0
-    m_ExpandedIDs: 0000000070450000
+    m_SelectedIDs: e8490000
+    m_LastClickedID: 18920
+    m_ExpandedIDs: ffffffff000000007a49000098490000e2490000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -46223,7 +46436,7 @@ MonoBehaviour:
     m_SelectedInstanceIDs: 
     m_LastClickedInstanceID: 0
     m_HadKeyboardFocusLastEvent: 1
-    m_ExpandedInstanceIDs: c6230000dc530000
+    m_ExpandedInstanceIDs: c6230000dc530000ea490000724a0000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -46291,7 +46504,7 @@ MonoBehaviour:
     m_CachedPref: 349
     m_ControlHash: -371814159
     m_PrefName: Preview_InspectorPreview
-  m_LastInspectedObjectInstanceID: -1
+  m_LastInspectedObjectInstanceID: 17990
   m_LastVerticalScrollValue: 0
   m_GlobalObjectId: 
   m_InspectorMode: 0
@@ -46320,7 +46533,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 0
     y: 73
-    width: 378
+    width: 307
     height: 551
   m_SerializedDataModeController:
     m_DataMode: 0
@@ -46335,9 +46548,9 @@ MonoBehaviour:
   m_SceneHierarchy:
     m_TreeViewState:
       scrollPos: {x: 0, y: 0}
-      m_SelectedIDs: fcfaffff
-      m_LastClickedID: -1284
-      m_ExpandedIDs: 3efbffff
+      m_SelectedIDs: 
+      m_LastClickedID: 0
+      m_ExpandedIDs: def7ffffe2f7ffffe6f7fffffef7ffff02f8ffff06f8ffff0af8ffff18fbffff46460000
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 
@@ -46381,9 +46594,9 @@ MonoBehaviour:
     m_Tooltip: 
   m_Pos:
     serializedVersion: 2
-    x: 379
+    x: 308
     y: 73
-    width: 1149
+    width: 1220
     height: 551
   m_SerializedDataModeController:
     m_DataMode: 0
@@ -46691,9 +46904,9 @@ MonoBehaviour:
   m_PlayAudio: 0
   m_AudioPlay: 0
   m_Position:
-    m_Target: {x: -41.043556, y: -15.936325, z: -27.18479}
+    m_Target: {x: -26.133419, y: 4.2542114, z: -20.585693}
     speed: 2
-    m_Value: {x: -41.043556, y: -15.936325, z: -27.18479}
+    m_Value: {x: -26.133419, y: 4.2542114, z: -20.585693}
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -46739,13 +46952,13 @@ MonoBehaviour:
     m_GridAxis: 1
     m_gridOpacity: 0.5
   m_Rotation:
-    m_Target: {x: 0.123743504, y: -0.87418914, z: 0.29827318, w: 0.36271295}
+    m_Target: {x: 0.28567794, y: -0.5143409, z: 0.18677498, w: 0.7867681}
     speed: 2
-    m_Value: {x: 0.12374061, y: -0.8741687, z: 0.2982662, w: 0.3627045}
+    m_Value: {x: 0.2856712, y: -0.5143287, z: 0.18677057, w: 0.7867495}
   m_Size:
-    m_Target: 27.932205
+    m_Target: 13.474664
     speed: 2
-    m_Value: 27.932205
+    m_Value: 13.474664
   m_Ortho:
     m_Target: 0
     speed: 2
@@ -46790,9 +47003,9 @@ MonoBehaviour:
     m_Tooltip: 
   m_Pos:
     serializedVersion: 2
-    x: 379
+    x: 308
     y: 73
-    width: 1149
+    width: 1220
     height: 551
   m_SerializedDataModeController:
     m_DataMode: 0
@@ -46810,7 +47023,7 @@ MonoBehaviour:
   m_ShowGizmos: 0
   m_TargetDisplay: 0
   m_ClearColor: {r: 0, g: 0, b: 0, a: 0}
-  m_TargetSize: {x: 1149, y: 530}
+  m_TargetSize: {x: 1220, y: 530}
   m_TextureFilterMode: 0
   m_TextureHideFlags: 61
   m_RenderIMGUI: 1
@@ -46825,8 +47038,8 @@ MonoBehaviour:
     m_VRangeLocked: 0
     hZoomLockedByDefault: 0
     vZoomLockedByDefault: 0
-    m_HBaseRangeMin: -574.5
-    m_HBaseRangeMax: 574.5
+    m_HBaseRangeMin: -610
+    m_HBaseRangeMax: 610
     m_VBaseRangeMin: -265
     m_VBaseRangeMax: 265
     m_HAllowExceedBaseRangeMin: 1
@@ -46846,23 +47059,23 @@ MonoBehaviour:
       serializedVersion: 2
       x: 0
       y: 21
-      width: 1149
+      width: 1220
       height: 530
     m_Scale: {x: 1, y: 1}
-    m_Translation: {x: 574.5, y: 265}
+    m_Translation: {x: 610, y: 265}
     m_MarginLeft: 0
     m_MarginRight: 0
     m_MarginTop: 0
     m_MarginBottom: 0
     m_LastShownAreaInsideMargins:
       serializedVersion: 2
-      x: -574.5
+      x: -610
       y: -265
-      width: 1149
+      width: 1220
       height: 530
     m_MinimalGUI: 1
   m_defaultScale: 1
-  m_LastWindowPixelSize: {x: 1149, y: 551}
+  m_LastWindowPixelSize: {x: 1220, y: 551}
   m_ClearInEditMode: 1
   m_NoCameraWarning: 1
   m_LowResolutionForAspectRatios: 01000000000000000000
@@ -46888,10 +47101,10 @@ MonoBehaviour:
     m_Tooltip: 
   m_Pos:
     serializedVersion: 2
-    x: 8
-    y: 718
-    width: 1366
-    height: 308
+    x: 0
+    y: 645
+    width: 1529
+    height: 354
   m_SerializedDataModeController:
     m_DataMode: 0
     m_PreferredDataMode: 0
