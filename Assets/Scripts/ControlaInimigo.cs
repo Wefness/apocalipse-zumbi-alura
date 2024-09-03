@@ -6,6 +6,8 @@ public class ControlaInimigo : MonoBehaviour
 {
     public GameObject jogador;
     public float velocidade;
+    private Rigidbody rigidbodyInimigo;
+    private Animator animatorInimigo;
 
     // Start is called before the first frame update
     void Start()
@@ -13,6 +15,9 @@ public class ControlaInimigo : MonoBehaviour
         int geraTipoZumbi = Random.Range(1, 28);
 
         jogador = GameObject.FindWithTag("Player");
+        rigidbodyInimigo = GetComponent<Rigidbody>();
+        animatorInimigo = GetComponent<Animator>();
+
         transform.GetChild(geraTipoZumbi).gameObject.SetActive(true);
     }
 
@@ -28,15 +33,16 @@ public class ControlaInimigo : MonoBehaviour
         Vector3 direcao = jogador.transform.position - transform.position;
         Quaternion novaRotacao = Quaternion.LookRotation(direcao);
 
-        GetComponent<Rigidbody>().MoveRotation(novaRotacao);
+        rigidbodyInimigo.MoveRotation(novaRotacao);
 
         if (distancia > 3) {
-            GetComponent<Rigidbody>().MovePosition(
-                GetComponent<Rigidbody>().position + (
-                    direcao.normalized * velocidade * Time.deltaTime));
-            GetComponent<Animator>().SetBool("Atacando", false);
+            rigidbodyInimigo.MovePosition(
+                rigidbodyInimigo.position +
+                (direcao.normalized * velocidade * Time.deltaTime)
+            );
+            animatorInimigo.SetBool("Atacando", false);
         } else {
-            GetComponent<Animator>().SetBool("Atacando", true);
+            animatorInimigo.SetBool("Atacando", true);
         }
 
     }

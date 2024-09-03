@@ -5,11 +5,17 @@ using UnityEngine;
 public class Bala : MonoBehaviour
 {
     public float velocidade;
+    private Rigidbody rigidbodyBala;
+
+    void Start() {
+        rigidbodyBala = GetComponent<Rigidbody>();
+    }
     void FixedUpdate()
     {
-        GetComponent<Rigidbody>().MovePosition(
-            GetComponent<Rigidbody>().position + (
-                transform.forward * velocidade * Time.deltaTime));
+        rigidbodyBala.MovePosition(
+            rigidbodyBala.position +
+            (transform.forward * velocidade * Time.deltaTime)
+        );
     }
 
     void OnTriggerEnter(Collider other) {
@@ -18,6 +24,5 @@ public class Bala : MonoBehaviour
         }
 
         Destroy(gameObject);
-        //Destroy(gameObject, 5);
     }
 }
