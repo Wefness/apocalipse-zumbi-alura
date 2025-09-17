@@ -9,7 +9,7 @@ public class ControlaJogador : MonoBehaviour {
     public int velocidade = 10;
     public LayerMask mascaraChao;
     public GameObject textoGameOver;
-    public bool vivo = true;
+    public int vida = 100;
     private Vector3 direcao;
     private Animator animatorJogador;
     private Rigidbody rigidbodyJogador;
@@ -34,7 +34,7 @@ public class ControlaJogador : MonoBehaviour {
             animatorJogador.SetBool("Movendo", false);
         }
 
-        if(vivo == false) {
+        if(vida <= 0) {
             if(Input.GetButtonDown("Fire1")) {
                 SceneManager.LoadScene("game");
             }
@@ -62,5 +62,15 @@ public class ControlaJogador : MonoBehaviour {
         }
 
         Debug.DrawRay(raio.origin, (raio.direction * 100), Color.red);
+    }
+
+    public void TomarDano(int dano) {
+        vida -= dano;
+
+        if(vida <= 0) {
+            Time.timeScale = 0;
+
+            textoGameOver.SetActive(true);
+        }
     }
 }
